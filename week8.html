@@ -1,28 +1,31 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Chairs R Us</title>
     <link rel="stylesheet" href="week8.css" />
+    <style>
+        /* Internal stylesheet - FINE */
+
+    </style>
 </head>
 <body>
     <nav class="navbar">
         <h1>Chairs R Us</h1>
         <ul>
-            <li class="color-changing-hover"> <a href="#">Home</a> </li>
+            <li> <a href="#">Home</a> </li>
             <li> <a href="#">Contact Us</a> </li>
             <li> <a href="#">About</a> </li>
         </ul>
     </nav>
-    <div class="prince-humperdink">
-        <h1 class="color-changing-hover">Another Heading</h1>
+    <div class="container">
+        <h1>Another Heading</h1>
         <div>
-            <img src="images/chair.jpg">
+            <img class="image" src="images/chair.jpg">
         </div>
         <div>
-            <div class="white-background">
+            <div> <!-- Inline styling - BAD:  style="background-color: green"-->
                 And here is some more
                 <button>See More</button>
             </div>
@@ -30,13 +33,13 @@
                 Text about nothing
                 <button>See More</button>
             </div>
-            <div class="color-changing-hover large-text">
+            <div>
                 To take up space
                 <button>See More</button>
             </div>
         </div>
         <div>
-            <p class="small-text">
+            <p>
                 Mauris id hendrerit libero. <span>Nunc pulvinar</span> lorem at ligula sodales 
                 suscipit ut vitae nisi. Proin nec eleifend nisi. Mauris augue quam, 
                 semper et orci sed, rutrum luctus tortor. Donec tincidunt ex a nibh 
