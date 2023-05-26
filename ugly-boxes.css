@@ -1,0 +1,83 @@
+body {
+    background-color: #fdfdfd;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.heading {
+    margin: 20px;
+    font-size: 3rem;
+}
+
+.container {
+    margin: 20px;
+}
+
+/***** Ugly Boxes CSS *****/
+
+.natalie-box {
+    background-color: #e25252;
+    color: white;
+    padding: 5px 15px 15px 15px;
+}
+
+.natalie-box p {
+    background: white;
+    color: red;
+    padding: 15px;
+}
+
+.natalie-box button {
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.natalie-box button:hover {
+    border-width: 5px;
+    padding: 8px;
+}
+
+
+.martin-box {
+    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: beige;
+}
+
+.martin-box p {
+    background-color: khaki;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.colsum-box {
+    background-color: aquamarine;
+    color: green
+    border: 6px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
