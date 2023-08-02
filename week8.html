@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Chairs R Us</title>
     <link rel="stylesheet" href="week8.css" />
 </head>
@@ -16,23 +15,22 @@
         </ul>
     </nav>
     <div>
-        <h2 class="green-text">Another Heading</h2>
+        <h1>Another Heading</h1>
         <div>
             <img src="images/chair.jpg">
         </div>
-        <div class="main-section">
+        <div>
             <div>
                 And here is some more
-                <button>See More</button>
+                <button class="btn btn-blue btn-large">See More</button>
             </div>
             <div>
-                <h2>Hello there</h2>
                 Text about nothing
-                <button>See More</button>
+                <button class="btn btn-green">See More</button>
             </div>
             <div>
                 To take up space
-                <button>See More</button>
+                <button class="btn btn-blue">See More</button>
             </div>
         </div>
         <div>
@@ -48,6 +46,20 @@
             </p>
         </div>
     </div>
+    <script>
+
+        function addFive(s) {
+            return s + 5
+        }
+        addFive(2)
+
+        let countFalsy = function(array) { // x = [true, "sheep", undefined, 12, undefined, undefined, true]
+            return array.filter( s => s ).length;  // filtered array: [true, "sheep", 12, true]
+        } 
+
+        countSheeps([true, , true, undefined, undefined, true])
+
+    </script>
     <footer>
         <p>Copyright 2022</p>
     </footer>
