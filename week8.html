@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="week8.css" />
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="display-flex flex-space-between">
         <h1>Chairs R Us</h1>
-        <ul>
+        <ul class="link-list">
             <li> <a href="#">Home</a> </li>
             <li> <a href="#">Contact Us</a> </li>
             <li> <a href="#">About</a> </li>
+            <li><button class="blue-button purple-button">Login</button></li>
         </ul>
     </nav>
     <div>
@@ -22,15 +23,15 @@
         <div>
             <div>
                 And here is some more
-                <button class="btn btn-blue btn-large">See More</button>
+                <button class="green-button">See More</button>
             </div>
             <div>
                 Text about nothing
-                <button class="btn btn-green">See More</button>
+                <button class="green-button">See More</button>
             </div>
             <div>
                 To take up space
-                <button class="btn btn-blue">See More</button>
+                <button class="green-button">See More</button>
             </div>
         </div>
         <div>
@@ -46,20 +47,6 @@
             </p>
         </div>
     </div>
-    <script>
-
-        function addFive(s) {
-            return s + 5
-        }
-        addFive(2)
-
-        let countFalsy = function(array) { // x = [true, "sheep", undefined, 12, undefined, undefined, true]
-            return array.filter( s => s ).length;  // filtered array: [true, "sheep", 12, true]
-        } 
-
-        countSheeps([true, , true, undefined, undefined, true])
-
-    </script>
     <footer>
         <p>Copyright 2022</p>
     </footer>
