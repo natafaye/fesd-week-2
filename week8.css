@@ -1,42 +1,73 @@
-
 body {
-    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-h1 {
-    color: blue;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.green-button, .blue-button {
-    padding: 10px;
+.navbar {
+    background-color: #4F5D61;
     color: white;
-    border-radius: 10px;
-    border: 0;
-}
-
-.green-button {
-    background-color: green;
-}
-
-.blue-button {
-    background-color: blue
-}
-
-.link-list {
-    list-style-type: none;
-    padding: 0;
+    padding: 0.5rem;
     display: flex;
-    gap: 10px;
     align-items: center;
 }
 
-.link-list li {
+.navbar h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.display-flex {
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
     display: flex;
+    gap: 0.7rem;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
-.flex-space-between {
-    justify-content: space-between;
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+ color: rgb(190, 192, 194);
+}
+
+.heading-image {
+    width: 100%;
+}
+
+.content-box {
+    margin: 0.3rem 1rem;
+}
+
+.tri-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tri-box div {
+    margin: 30px 20px;
+    background-color: lightgray;
+    padding: 1rem;
+    text-align: center;
+    width: 25%;
+}
+
+/* Only applies at 900px and below */
+@media (max-width: 900px) {
+    .tri-box div {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #4F5D61;
+    color: white;
+    padding: 0.5rem;
 }
