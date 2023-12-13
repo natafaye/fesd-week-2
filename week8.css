@@ -1,3 +1,15 @@
+/*An example of how to do a custom font, like we talked about at the end of class*/
+/*This won't actually work because myfont.ttf isn't a real font*/
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('myfont.ttf'); /*URL to font*/
+}
+.something {
+    font-family: 'YourFontName';
+}
+
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
