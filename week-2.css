@@ -1,0 +1,88 @@
+
+/* What people tend to do */
+body {
+    /* font-family is inherited */
+    /* Font stack - it's just a plan A, plan B for fonts */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* anything font related tends to be inherited */
+    color: black;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.chair-background {
+    background-image: url(images/chair.jpg);
+    height: 500px;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #4F5D61;
+    color: white;
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar h1 {
+    color: white;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightgray;
+}
+
+/* Crap CSS demos */
+
+.purple-text {
+    color: rgb(76, 41, 110);
+    color: #4c296e;
+}
+
+.blue-text {
+    color: blue;
+}
+
+h1 {
+    color: green;
+}
+
+.weird-button {
+    padding: 200px;
+    margin: 20px;
+    border: 20px solid black;
+    width: 600px;
+    background: rgb(139,59,6);
+    background: linear-gradient(90deg, rgba(139,59,6,1) 0%, rgba(194,124,11,1) 38%, rgba(175,120,14,1) 63%, rgba(0,124,92,1) 100%);
+}
+
+/* this goes ON a block level element to center it */
+.centered {
+    margin: 0 auto;
+    width: 50%; /* without a width, everything is centered */
+    /* shorthand for this */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* this goes on container around inline element to center it */
+.centered-inline {
+    text-align: center;
+}
