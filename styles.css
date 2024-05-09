@@ -1,0 +1,84 @@
+/* Commonly use this to set the font 
+color and font family on the whole page 
+background color for the whole page */
+body {
+    color: rgb(29, 24, 24);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/* Ctrl + / */
+
+.message {
+    background-color: #fafafa;
+}
+
+.message .message-body {
+    color: orange;
+}
+
+/* .message > div > p */
+.sub-message-body {
+    color: green;
+}
+
+/* Hey by the widfjdklsfkdsj */ 
+
+p {
+    color: red;
+}
+
+.message p.message-body {
+    color: blue;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.nice-button {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.red-box {
+    background-color: lightpink;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/***** Navbar *****/
+
+.navbar {
+    background-color: #4F5D61;
+    color: white;
+    padding: 15px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.7rem;
+}
