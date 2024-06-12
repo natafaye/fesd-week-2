@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    color: #171414;
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #677274;
+    padding: 0.5rem;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightgray;
+}
+
+/* Utility */
+
+.text-center {
+    text-align: center;
+}
+
+/* Main */
+
+.main-heading {
+    background-color: lightgray;
+    width: 400px;
+    margin: 2rem auto;
+}
