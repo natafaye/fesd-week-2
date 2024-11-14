@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #4F5D61;
+    color: white;
+    padding: 0.5rem;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* How NOT to get block elements next to each other
+ * position absolute (there are reasons to use this)
+ * position relative
+ * float left
+ * making it inline
+ * a table
+ 
+ How to get block elements next to each other
+ * flexbox (usually this one)
+ * grid
+*/
