@@ -1,69 +1,10 @@
-/* 
-1) Make the HTML file and put HTML in it
-2) Make the CSS file
-3) Connect the CSS file to the HTML file with <link>
-4) Put a class on something in the HTML file class="something"
-5) Make a class selector for that class in the CSS file .something {}
-6) Repeat steps 4 and 5
-*/
 
-/* user agent stylesheet = brower's default styling */
 
-.test {
-    background-color: rgb(106, 219, 106);
-    padding: 10px;
-    margin: 2rem;
-    border: 1px solid black;
+.special-heading {
+    color: green;
 }
 
-.image-box {
-    text-align: center;
-    width: 500px;
-    background-color: rgb(126, 126, 185);
-    margin: 0 auto;
+.important-text {
+    font-weight: bold;
 }
 
-.chair-img {
-    width: 300px;
-}
-
-
-
-
-
-body {
-    margin: 0;
-    font-family: Arial;
-}
-
-.navbar {
-    background-color: #4F5D61;
-    color: white;
-    padding: 0.5rem;
-}
-
-.navbar h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Select a tags that are currently being hovered that are inside something with the class of .navbar */
-.navbar a:hover {
-    color: rgb(196, 192, 192);
-}
-
-/* Opinion: Don't use the float property */
-/* Opinion: As a beginner do not use position: absolute or position: relative */
